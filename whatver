@@ -12,7 +12,7 @@ dictionary = {
     # Add new ones below. Don't forget the comma at the end of each
     # line, and please alphabetize them.
     "SYSTEM": "uname -srvmpio",
-    "awk": "awk --version | head -1  2>&1",
+    "awk": "awk -W version | head -1  2>&1",
     "bash": "bash --version | head -1 2>&1",
     "bc": "bc --version | head -1 2>&1",
     "cat": "cat --version | head -1 2>&1",
