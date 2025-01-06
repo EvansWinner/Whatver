@@ -1,5 +1,5 @@
 install:
-	install -t /usr/local/bin whatver
+	install -t ${PREFIX}/bin whatver
 
 check:
 	black whatver
